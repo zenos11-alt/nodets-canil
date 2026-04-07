@@ -1,4 +1,4 @@
-import { Request, Response } from 'express';
+import type { Request, Response } from 'express';
 import { createMenuObject } from '../helpers/createMenuObject';
 import { Pet } from '../models/pet';
 

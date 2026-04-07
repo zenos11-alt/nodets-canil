@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { Pet } from "../models/pet";
+import { Pet } from "../models/pet.js";
 import { createMenuObject } from "../helpers/createMenuObject";
 
 export const search = (req: Request, res: Response) => {
